@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Tech Ninja | Web &amp; IT</title>
+    <meta name="description" content="Tech Ninja | Web &amp; IT Advanced Web Applications">
+    <meta name="author" content="4UmNinja">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/highcharts-more.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    
+    <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+
+    <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div id="cont1" class="block col-xs-12 col-sm-6">
+                Click to Add Chart To Block 1
+            </div>
+        </div>
+        <div id="cont2" class="block col-xs-12 col-sm-6">
+            Click to Add Chart To Block 2
+        </div>
+        <button id="default">Default: No Config Chart</button>
+        <button id="pushMore">Push More Data</button><br><br>
+    </div>
+        <div class="container">	    
+			<input type="text" id="name" name="name" placeholder="create chart name" /><div class="clear-fix"></div>
+			<input type="text" id="type" name="type" placeholder="create chart type" /><div class="clear-fix"></div>
+			<input type="text" id="data" name="data" placeholder="create chart data" /><div class="clear-fix"></div>
+			<input type="text" id="time" name="time" placeholder="create chart time" /><div class="clear-fix"></div><br>
+
+			<button id="newTest">New Chart Test</button>		    
+	    </div>
+    	<div id="chart">
+		</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
